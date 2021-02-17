@@ -38,7 +38,7 @@ const limit = (prefix, botName, ownerName) => {
    ╿ *${ownerName}*,
    ╰╼≽ *Developer © ${botName}
 --------------------------------
-Note: Kamu bisa membeli limit dengan cara mengumpulkan uang terlebih dahulu. Cek uang kamu dengan cara mengetikan perintah *${prefix}bal* , harga 1 limit = 1000 uang.
+Note: Kamu bisa membeli limit dengan cara mengumpulkan uang terlebih dahulu. Cek uang kamu dengan cara mengetikan perintah *${prefix}bal* , harga 99 limit = 1 uang.
 Note2: Kamu bisa mengumpulkan uang dengan cara chat dengan teman segroup atau bisa dengan naik level.`
 }
 exports.limit = limit

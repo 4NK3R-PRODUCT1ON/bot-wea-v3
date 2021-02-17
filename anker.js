@@ -101,9 +101,9 @@ const { limit } = require('./database/menu/limit')
 // Load Vcard Contact
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:√ANKER√\n' // Nama Lu
+            + 'FN:√PALUVI√\n' // Nama Lu
             + 'ORG:#OwnerGanz;\n' // Nama Kontak Owner
-            + 'TEL;type=CELL;type=VOICE;waid=6281368646011:+62 813-6864-6011\n' // Nomer Lu cok
+            + 'TEL;type=CELL;type=VOICE;waid=6287871537199:+62 878-7153-7199\n' // Nomer Lu cok
             + 'END:VCARD'
 prefix = "#"
 blocked = []
@@ -397,7 +397,7 @@ async function starts() {
                                         daftarB: `｢ BELUM REGISTER ｣\nHalo kak !\nKamu belum Register nih, register dulu yuk... \n\nCommand : ${prefix}register nama|umur\nContoh : ${prefix}register Anker|16`,
 				}
 			}
-    			const apakah = ['Ya','Pasti','Kaga Bakal','Tidak']
+    			const apakah = ['Ya','Pasti','InsyaAllah😂','Kaga Bakal','Tidak']
         		const bisakah = ['Bisa','Pasti','Kaga Bakal','Tidak Bisa']
 		        const kapankah = ['Hari Lagi','5 Hari Lagi','3 Minggu Lagi','4 Tahun Lagi','26 Hari Lagi','8 Bulan Lagi','1 Minggu Lagi','1 Abad Lagi :v','2 Minggu Lagi','6 Bulan Lagi','5 Tahun Lagi']
 			const botNumber = anker.user.jid
@@ -513,7 +513,7 @@ async function starts() {
             const checkATM = checkATMuser(sender)
             try {
                 if (checkATM === undefined) addATM(sender)
-                const uangsaku = Math.floor(Math.random() * 10) + 90
+                const uangsaku = Math.floor(Math.random() * 10) + 999
                 addKoinUser(sender, uangsaku)
             } catch (err) {
                 console.error(err)
@@ -1198,7 +1198,7 @@ async function starts() {
 						teks += `╠➥ https://wa.me/${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					anker.sendMessage(from, '╔══✪〘 Mention All 〙✪══\n╠➥User'+teks+'╚═〘 Dark BOT BOT 〙', text, {detectLinks: false, quoted: mek})
+					anker.sendMessage(from, '╔══✪〘 Mention All 〙✪══\n╠➥User'+teks+'╚═〘 P4LUVI 〙', text, {detectLinks: false, quoted: mek})
 					break
                         case 'tagall4':
 				anker.updatePresence(from, Presence.composing) 
@@ -1211,7 +1211,7 @@ async function starts() {
 						teks += `╠➥ ${mem.jid.split('@')[0]}@c.us\n`
 						members_id.push(mem.jid)
 					}
-					anker.sendMessage(from, '╔══✪〘 Mention All 〙✪══\n╠➥User'+teks+'╚═〘 Dark BOT BOT 〙', text, {quoted: mek})
+					anker.sendMessage(from, '╔══✪〘 Mention All 〙✪══\n╠➥User'+teks+'╚═〘 PALUVI 〙', text, {quoted: mek})
 					break
                 case 'tagall5':
 				anker.updatePresence(from, Presence.composing) 
@@ -1224,7 +1224,7 @@ async function starts() {
 						teks += `╠➥ ${mem.jid.split('@')[0]}@s.whatsapp.net\n`
 						members_id.push(mem.jid)
 					}
-					reply('╔══✪〘 Mention All 〙✪══\n╠➥User'+teks+'╚═〘 Dark BOT BOT 〙')
+					reply('╔══✪〘 Mention All 〙✪══\n╠➥User'+teks+'╚═〘 PALUVI 〙')
 					break
 				case 'send':
 					var pc = body.slice(6)
